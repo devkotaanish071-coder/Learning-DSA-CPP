@@ -15,7 +15,7 @@ int main(){
         cin >> array[i];
     }
 
-    //Declaring hash with 0
+    //Declaring hash with 10 elemnts for now and 0 in all 10 elements
     int hash[10] = {0};
     for(int i = 0; i < number; i++){
         hash[array[i]] += 1;
