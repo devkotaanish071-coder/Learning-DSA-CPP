@@ -4,18 +4,22 @@
 using namespace std;
 
 int remove_duplicate(vector<int>& array, int size){
-    int a = array[0];
-    int b = array[0+1];
-    for(int i = 0; i < size - 1; i++){
-        if(array[a] == array[b]){
-            b++;
+
+    // Pointer 'a' tracks the index of the last unique element found
+    int a = 0;
+
+    // Loop through the array starting from the second element
+    for(int b = 1; b < size; b++){
+
+        // If a new unique element is found
+        if(array[a] != array[b]){
+            a++;                 // Move the unique pointer forward
+            array[a] = array[b]; // Shift the unique element to its new position
         }
-        else if(array[a] != array[b]){
-            a++;
-            array[a] = array[b];
-            b++;
-        }
+        // If they are equal, pointer 'b' just continues to skip the duplicate
     }
+    
+    // 'a' is an index, so the number of unique elements is the index + 1
     return a + 1;
 }
 
