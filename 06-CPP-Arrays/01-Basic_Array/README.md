@@ -50,8 +50,8 @@ This folder contains basic, medium, and hard level array problems.
 * **12-union_of_two_arrays_brute**: Combines two arrays into a sorted union using a `std::set` to filter out duplicates.
   * **Time Complexity**: O((N + M) * log(N + M)) due to set insertions
   * **Space Complexity**: O(N + M) to store elements inside the set and temp vector
-  
-  * **13-union_of_sorted_array_optimized**: Combines two sorted arrays into a single unique sorted union using a linear Two-Pointer approach.
+
+* **13-union_of_sorted_array_optimized**: Combines two sorted arrays into a single unique sorted union using a linear Two-Pointer approach.
   * **Time Complexity**: **O(N + M)** where N and M are the sizes of the two arrays.
   * **Space Complexity**: **O(N + M)** in the worst case to return the combined result vector.
 
