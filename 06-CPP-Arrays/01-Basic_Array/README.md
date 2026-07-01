@@ -55,3 +55,6 @@ This folder contains basic, medium, and hard level array problems.
   * **Time Complexity**: **O(N + M)** where N and M are the sizes of the two arrays.
   * **Space Complexity**: **O(N + M)** in the worst case to return the combined result vector.
 
+* **14-intersection_of_2_sorted_array**: Intersection of 2 sorted array.
+  * **Time Complexity**:
+  * **Space Complexity**:
