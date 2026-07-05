@@ -58,3 +58,5 @@ This folder contains basic, medium, and hard level array problems.
 * **14-intersection_of_2_sorted_array**: Intersection of 2 sorted array.
   * **Time Complexity**:
   * **Space Complexity**:
+
+* **15-find_missing_number**: Finding the missing number using loops.
