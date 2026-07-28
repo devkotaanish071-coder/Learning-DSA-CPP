@@ -55,9 +55,10 @@ This folder contains basic, medium, and hard level array problems.
   * **Time Complexity**: **O(N + M)** where N and M are the sizes of the two arrays.
   * **Space Complexity**: **O(N + M)** in the worst case to return the combined result vector.
 
-* **14-intersection_of_2_sorted_array**: Intersection of 2 sorted array.
-  * **Time Complexity**:
-  * **Space Complexity**:0(n+m)
+* **14-intersection_of_two_arrays_brute_brute**: Finds common elements between two sorted arrays using a nested loop brute-force method backed by a visited tracking array.
+  * **Time Complexity**: **O(N * M)** where N and M are the sizes of the two arrays.
+  * **Space Complexity**: **O(M)** to maintain the auxiliary visited tracking array.
+
 
 * **15-find_missing_number**: Finding the missing number using loops.
  * **Time Complexity**:
